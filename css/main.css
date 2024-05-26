@@ -1,3 +1,35 @@
 .hidden {
     display: none;
 }
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Sanchez", "Times New Roman", Times, serif;
+  }
+  
+  .spacer {
+    margin-top: 10px;
+  }
+  
+  .box {
+    background-color: rgb(232, 15, 152);
+    color: rgb(27, 27, 27);
+    border-radius: 5px;
+    padding: 80px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight:700;
+  }
+
+  .text {
+    padding: 1px 50px;
+    text-align: center;
+  }
+
+  .top {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+  }
+  
