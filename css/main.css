@@ -1,35 +1,55 @@
 .hidden {
-    display: none;
+  display: none;
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
-    font-family: "Sanchez", "Times New Roman", Times, serif;
-  }
-  
-  .spacer {
-    margin-top: 10px;
-  }
-  
-  .box {
-    background-color: rgb(232, 15, 152);
-    color: rgb(27, 27, 27);
-    border-radius: 5px;
-    padding: 80px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight:700;
-  }
+  margin: 0px;
+  padding: 0px;
+  font-family: "Sanchez", "Times New Roman", Times, serif;
+}
 
-  .text {
-    padding: 1px 50px;
-    text-align: center;
-  }
+.spacer {
+  margin-top: 10px;
+}
 
-  .top {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
-  }
-  
+.box {
+  color: rgb(27, 27, 27);
+  border-radius: 5px;
+  padding: 80px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.text {
+  padding: 1px 50px;
+  text-align: left;
+}
+
+.top {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  color: white;
+  background-color: black;
+  padding: 14px 6px;
+  margin-right: 8px;
+  float: center;
+  text-align: center;
+  font-size: 32px;
+  border-radius: 5px;
+  box-shadow: 5px 3px 0 #daff00;
+}
+
+@font-face {
+  font-family: "raleway-blackitalic";
+  src: url("../font/raleway-blackitalic-webfont.woff2") format("woff2"),
+    url("../font/raleway-blackitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+  font-family: "raleway-blackitalic";
+  font-size: 15px;
+}
