@@ -38,6 +38,14 @@
 		fill:black;
 	  }
 </style>
+    <script>
+const orange = document.querySelector("#orange");
+function logID() {
+console.log(this.id);
+}
+
+orange.addEventListener("click", logID);
+</script>
 <g id="BACKGROUND">
 	<rect x="-522.8" y="3.5" class="st0" width="500" height="500"/>
 </g>

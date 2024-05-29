@@ -31,6 +31,14 @@
 
 
 </style>
+    <script>
+const pineapple = document.querySelector("#Pineapple_S");
+function logID() {
+console.log(this.id);
+}
+
+pineapple.addEventListener("click", logID);
+</script>
 <g id="Pineapple">
 	<path id="Leafs-shadow" class="st0" d="M132.7,46.2c-2.2-1-4.5-1-6.8-1.1c-1.3,0-2.5,0-3.8-0.1c-0.7,0-1.3,0-2,0
 		c-0.7,0-1,0-1.6,0.5c-0.3,0.2-0.4,0.7-0.1,0.9c0.4,0.4,0.7,0.6,1.2,0.6c0.3,0,0.7,0,1,0.1c-1.1,0.5-2.2,0.9-3.4,1.3

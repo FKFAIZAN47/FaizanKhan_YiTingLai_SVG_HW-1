@@ -37,6 +37,14 @@
 	#lemon:hover #lemon_x5F_shadow{
 		fill:#DED971;
 </style>
+    <script>
+const lemon = document.querySelector("#lemon");
+function logID() {
+console.log(this.id);
+}
+
+lemon.addEventListener("click", logID);
+</script>
 <g id="BACKGROUND">
 	<rect x="-522.8" y="-251.1" class="st0" width="500" height="500"/>
 </g>

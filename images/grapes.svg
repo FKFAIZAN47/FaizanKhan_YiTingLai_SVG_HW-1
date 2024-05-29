@@ -39,6 +39,14 @@
 } 
 
 </style>
+<script>
+const grapes = document.querySelector("#grapes");
+function logID() {
+console.log(this.id);
+}
+
+grapes.addEventListener("click", logID);
+</script>
 <g id="BACKGROUND">
 	<rect x="-769.5" y="3.5" class="st0" width="500" height="500"/>
 </g>
